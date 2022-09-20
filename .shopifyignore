@@ -1,0 +1,17 @@
+mix-manifest.json
+package.json
+package-lock.json
+tailwind.config.js
+.stylelint
+.eslintrc
+.env.example
+.env
+.editorconfig
+.husky
+.vscode
+tailwind
+bs-config.json
+postcss.config.json
+subtree.sh
+update.sh
+assets

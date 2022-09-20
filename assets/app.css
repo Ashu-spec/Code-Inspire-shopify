@@ -567,10 +567,6 @@ video {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.bg-blue-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(37 99 235 / var(--tw-bg-opacity));
-}
 .uppercase {
   text-transform: uppercase;
 }
