@@ -606,7 +606,6 @@ video {
 @media (max-width: 768px) {
   .header {
     grid-template-areas: "header__logo header__menu header__icons";
-    grid-template-columns: 1fr 2fr 1fr;
   }
 }
 .header .nav__item:hover .nav__item-submenu {

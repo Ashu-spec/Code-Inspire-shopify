@@ -17,7 +17,6 @@
   }
   @media (max-width: 768px){
     grid-template-areas: "header__logo header__menu header__icons";
-    grid-template-columns: 1fr 2fr 1fr;
   }
   .nav__item{
     &:hover{
