@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.header{
+  display: grid;
+  grid-template-areas: header__logo header__menu header__icons;
+  grid-template-columns: 1fr 2fr 1fr;
+  .header__logo{
+    grid-area: header__logo;
+  }
+  .header__menu{
+    grid-area: header__menu;
+  }
+  .header__icons{
+    grid-area: header__icons;
+  }
+  @media (max-width: 768px){
+    grid-template-areas: "header__logo header__menu header__icons";
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+  .nav__item{
+    &:hover{
+      .nav__item-submenu{
+        display: block;
+      }
+    }
+  }
+}
